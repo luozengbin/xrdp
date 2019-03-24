@@ -534,7 +534,7 @@ int xfuse_check_wait_objs(void)
     struct fuse_chan *tmpch;
     int               rval;
 
-#define HACK
+/* #define HACK */
 
 #ifdef HACK
 char buf[135168];
